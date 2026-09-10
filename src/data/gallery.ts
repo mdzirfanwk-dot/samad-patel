@@ -1,0 +1,500 @@
+export interface GalleryImage {
+  id: string;
+  title: string;
+  spotName: string;
+  category:
+    | "Mahabaleshwar"
+    | "Panchgani"
+    | "Pratapgad"
+    | "Tapola"
+    | "Waterfalls"
+    | "Heritage & Temples"
+    | "Scenic Roads"
+    | "Local Experiences";
+  caption: string;
+  highlightBadge: string;
+  tourCircuit: string;
+  approxTime: string;
+  distanceFromCenter: string;
+  url: string;
+  uploadedUuid?: string;
+  originalFileName?: string;
+  isUserPhoto?: boolean;
+}
+
+export const galleryData: GalleryImage[] = [
+  {
+    id: "g-1",
+    title: "Kate's Point - Krishna Valley & Dhom Reservoir",
+    spotName: "Kate's Point",
+    category: "Mahabaleshwar",
+    caption: "Magnificent high cliff vantage point overlooking the emerald-green Krishna River valley and Dhom reservoir winding through the Sahyadris.",
+    highlightBadge: "Iconic Valley Panorama",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "45 - 60 Mins",
+    distanceFromCenter: "7 km from market",
+    url: "/images/gallery/kates-point-reservoir.jpg",
+    originalFileName: "kets point.jpeg"
+  },
+  {
+    id: "g-2",
+    title: "Kate's Point - Observation Deck & Scenic Overlook",
+    spotName: "Kate's Point Deck",
+    category: "Mahabaleshwar",
+    caption: "The popular viewing platform at Kate's Point where visitors soak in panoramic breezes and breathtaking valley drops.",
+    highlightBadge: "Popular Observation Deck",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "45 Mins",
+    distanceFromCenter: "7 km from market",
+    url: "/images/gallery/kates-point-viewdeck.jpg",
+    originalFileName: "kets point 1.jpeg"
+  },
+  {
+    id: "g-3",
+    title: "Kate's Point - Sunset & Crepuscular Sunburst",
+    spotName: "Kate's Point Terrace",
+    category: "Mahabaleshwar",
+    caption: "Dramatic mountain terrace capturing evening sunset rays breaking through storm clouds over the deep valleys.",
+    highlightBadge: "Golden Hour Sunburst",
+    tourCircuit: "Mahabaleshwar Evening Tour",
+    approxTime: "1 Hour",
+    distanceFromCenter: "7 km from market",
+    url: "/images/gallery/kates-point-sunset.jpg",
+    originalFileName: "kets point 2.jpeg"
+  },
+  {
+    id: "g-4",
+    title: "Elephant's Head Rock (Needle Hole Point)",
+    spotName: "Needle Hole / Elephant Head",
+    category: "Mahabaleshwar",
+    caption: "Remarkable natural rock formation resembling an elephant's head and trunk, pierced through by a dramatic natural stone aperture.",
+    highlightBadge: "Natural Rock Arch",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "45 Mins",
+    distanceFromCenter: "7 km from market",
+    url: "/images/gallery/elephant-head-needle-hole.jpg",
+    originalFileName: "kets point 3.jpeg"
+  },
+  {
+    id: "g-5",
+    title: "Arthur's Seat - Main Observation Deck",
+    spotName: "Arthur's Seat Deck",
+    category: "Mahabaleshwar",
+    caption: "Perched 1,340 m high, the primary observation balcony looking out into the deep Savitri river canyon and Konkan territory.",
+    highlightBadge: "Queen of Points Deck",
+    tourCircuit: "Arthur's Seat Circuit",
+    approxTime: "1 - 1.5 Hours",
+    distanceFromCenter: "13 km from market",
+    url: "/images/gallery/arthurs-seat-deck.jpg",
+    originalFileName: "auther seat.jpeg"
+  },
+  {
+    id: "g-6",
+    title: "Arthur's Seat - Cliff Edge Lookout",
+    spotName: "Arthur's Seat Cliff",
+    category: "Mahabaleshwar",
+    caption: "Protected ridge terrace overlooking dizzying vertical drop-offs with cool mountain updrafts and sweeping horizons.",
+    highlightBadge: "Dramatic Cliff Overlook",
+    tourCircuit: "Arthur's Seat Circuit",
+    approxTime: "45 Mins",
+    distanceFromCenter: "13 km from market",
+    url: "/images/gallery/arthurs-seat-cliff.jpg",
+    originalFileName: "auther seat1.jpeg"
+  },
+  {
+    id: "g-7",
+    title: "Arthur's Seat - Geological Rock Strata",
+    spotName: "Arthur's Seat Strata",
+    category: "Mahabaleshwar",
+    caption: "Fascinating geological sedimentary rock layering reminiscent of the Grand Canyon, carved by centuries of Western Ghats monsoon rains.",
+    highlightBadge: "Grand Canyon of India",
+    tourCircuit: "Arthur's Seat Circuit",
+    approxTime: "45 Mins",
+    distanceFromCenter: "13 km from market",
+    url: "/images/gallery/arthurs-seat-strata.jpg",
+    originalFileName: "auther seat 2.jpeg"
+  },
+  {
+    id: "g-8",
+    title: "Arthur's Seat - Mountain Ridge & Canyon Vista",
+    spotName: "Arthur's Seat Ridge",
+    category: "Mahabaleshwar",
+    caption: "Stunning wide-angle outlook spanning rugged mountain ridges, forest gorges, and the ancient path towards Jor valley.",
+    highlightBadge: "Mountain Ridge Vista",
+    tourCircuit: "Arthur's Seat Circuit",
+    approxTime: "45 Mins",
+    distanceFromCenter: "13 km from market",
+    url: "/images/gallery/arthurs-seat-canyon.jpg",
+    originalFileName: "auther seat 3.jpeg"
+  },
+  {
+    id: "g-9",
+    title: "Lingmala Cascading Waterfalls",
+    spotName: "Lingmala Falls",
+    category: "Waterfalls",
+    caption: "A two-tiered waterfall plunging over 600 feet down forested basalt cliffs, surrounded by lush rain-drenched Western Ghats greenery.",
+    highlightBadge: "Top Cascading Waterfall",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "1 - 1.5 Hours",
+    distanceFromCenter: "6 km on Mahabaleshwar-Pune Road",
+    url: "/images/gallery/lingmala-waterfall.jpg",
+    originalFileName: "lingmala waterfall.jpeg"
+  },
+  {
+    id: "g-10",
+    title: "Garden Ice Cream Restaurant & Strawberry Cafe",
+    spotName: "Garden Ice Cream Restaurant",
+    category: "Local Experiences",
+    caption: "Official tourist food destination in Lingmala, famed across Mahabaleshwar for farm-fresh strawberries with whipped cream, artisanal ice cream, and hot food.",
+    highlightBadge: "Verified Destination & Food Stop",
+    tourCircuit: "Food & Sightseeing Route",
+    approxTime: "45 - 60 Mins",
+    distanceFromCenter: "Lingmala, Mahabaleshwar Road",
+    url: "/images/gallery/garden-icecream-restaurant.jpg",
+    originalFileName: "mapro garden.jpeg"
+  },
+  {
+    id: "g-11",
+    title: "Monkey Point - Natural Stone Pinnacles",
+    spotName: "Monkey Point",
+    category: "Mahabaleshwar",
+    caption: "Unique natural rock sculpture displaying three distinct stone pinnacles sitting side-by-side, evoking Gandhiji's three monkeys.",
+    highlightBadge: "Three Stone Monkeys",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "30 Mins",
+    distanceFromCenter: "4.5 km from market",
+    url: "/images/gallery/monkey-point-pinnacles.jpg",
+    originalFileName: "monkey point.jpeg"
+  },
+  {
+    id: "g-12",
+    title: "Old Mahabaleshwar - Ancient Holy Spring & Stepwell",
+    spotName: "Kshetra Holy Spring",
+    category: "Heritage & Temples",
+    caption: "Sacred stone stepwell tank carved out of laterite bedrock where pristine natural spring water channels originate from Gomukh.",
+    highlightBadge: "Sacred Gomukh Spring",
+    tourCircuit: "Old Mahabaleshwar Heritage Tour",
+    approxTime: "45 Mins",
+    distanceFromCenter: "6 km from market",
+    url: "/images/gallery/old-mahabaleshwar-stepwell.jpg",
+    originalFileName: "old mahableshwar  mandir.jpeg"
+  },
+  {
+    id: "g-13",
+    title: "Pratapgad Fort - Citadel Bastion & Saffron Flag",
+    spotName: "Pratapgad Citadel",
+    category: "Pratapgad",
+    caption: "The formidable 1656 mountain fortress built by Chhatrapati Shivaji Maharaj, featuring steep ramparts, watchtowers, and the high citadel bastion.",
+    highlightBadge: "Chhatrapati Shivaji Maharaj Fort",
+    tourCircuit: "Pratapgad Fort Heritage Tour",
+    approxTime: "2 - 3 Hours",
+    distanceFromCenter: "22 km from Mahabaleshwar",
+    url: "/images/gallery/pratapgad-fort-citadel.jpg",
+    originalFileName: "prataph gad.jpeg"
+  },
+  {
+    id: "g-14",
+    title: "Fresh Strawberry Farm & Hydroponic Garden",
+    spotName: "Strawberry Farm Experience",
+    category: "Local Experiences",
+    caption: "Step right into lush strawberry gardens with vertical planter towers to see ripe red Mahabaleshwar strawberries cultivated in mountain climate.",
+    highlightBadge: "Farm Agro-Tourism",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "45 - 60 Mins",
+    distanceFromCenter: "Lingmala / Mahabaleshwar Road",
+    url: "/images/gallery/strawberry-farm-garden.jpg",
+    originalFileName: "strawberry garden.jpeg"
+  },
+  {
+    id: "g-15",
+    title: "Bombay Point (Sunset Point) - Golden Sunburst",
+    spotName: "Bombay Sunset Point",
+    category: "Mahabaleshwar",
+    caption: "The hill station's oldest viewpoint where travelers gather every evening to watch the sun dip below the horizon with radiant sunbursts.",
+    highlightBadge: "Celebrated Sunset Point",
+    tourCircuit: "Evening Sunset Tour",
+    approxTime: "Sunset 5:30 - 6:45 PM",
+    distanceFromCenter: "2.5 km from market",
+    url: "/images/gallery/bombay-sunset-point.jpg",
+    originalFileName: "sun set bpoint.jpeg"
+  },
+  {
+    id: "g-16",
+    title: "Panchgani Table Land - Grand Volcanic Plateau",
+    spotName: "Table Land Plateau",
+    category: "Panchgani",
+    caption: "A 95-acre continuous flat volcanic plateau at 4,500 feet offering 360-degree vistas, horse riding, caves, and walks along the cliff rim.",
+    highlightBadge: "Asia's 2nd Largest Plateau",
+    tourCircuit: "Panchgani Day Tour",
+    approxTime: "1.5 - 2 Hours",
+    distanceFromCenter: "19 km from Mahabaleshwar",
+    url: "/images/gallery/table-land-plateau.jpg",
+    originalFileName: "table land.jpeg"
+  },
+  {
+    id: "g-17",
+    title: "Kshetra Mahabaleshwar - Sacred Shri Ganesha Shrine",
+    spotName: "Shri Ganesha Mandir",
+    category: "Heritage & Temples",
+    caption: "Historic stone niche shrine consecrated to Lord Ganesha, adorned with fresh marigold garlands and sacred Vedic mantras at Kshetra Mahabaleshwar.",
+    highlightBadge: "Sacred Pilgrim Shrine",
+    tourCircuit: "Old Mahabaleshwar Heritage Tour",
+    approxTime: "30 Mins",
+    distanceFromCenter: "6 km from market",
+    url: "/images/gallery/sacred-ganesha-shrine.jpg",
+    originalFileName: "tour 3.jpeg"
+  },
+  {
+    id: "g-18",
+    title: "Wai - Sacred Krishna River Ghats & Stone Temples",
+    spotName: "Wai River Ghats",
+    category: "Heritage & Temples",
+    caption: "Picturesque 18th-century stone temple ghats along the sacred Krishna River in Wai, with historic architectural reflections.",
+    highlightBadge: "Dakshin Kashi Heritage",
+    tourCircuit: "Wai Heritage Tour",
+    approxTime: "1 - 1.5 Hours",
+    distanceFromCenter: "32 km from Mahabaleshwar",
+    url: "/images/gallery/wai-krishna-river-ghats.jpg",
+    originalFileName: "wai mandir.jpeg"
+  },
+  {
+    id: "g-19",
+    title: "Wai - Historic Dholya Ganapati Mandir",
+    spotName: "Dholya Ganapati Mandir",
+    category: "Heritage & Temples",
+    caption: "Ancient stone temple in Wai dedicated to the colossal monolithic idol of Lord Ganesha, featuring grand Maratha period shikhara towers.",
+    highlightBadge: "Historic Stone Temple",
+    tourCircuit: "Wai Heritage Tour",
+    approxTime: "45 Mins",
+    distanceFromCenter: "32 km from Mahabaleshwar",
+    url: "/images/gallery/wai-dholya-ganapati-mandir.jpg",
+    originalFileName: "wai mandir1.jpeg"
+  },
+  {
+    id: "g-20",
+    title: "Wilson Point (Sunrise Point) - Sahyadri Forest Canopy",
+    spotName: "Wilson Point (Sunrise)",
+    category: "Mahabaleshwar",
+    caption: "The highest point in Mahabaleshwar at 1,439 meters, offering unbroken 360-degree panoramas over dense mountain evergreen forest canopies.",
+    highlightBadge: "Highest Mountain Peak (1,439 m)",
+    tourCircuit: "Mahabaleshwar Sunrise Circuit",
+    approxTime: "1 Hour (Early Morning)",
+    distanceFromCenter: "1.5 km from market",
+    url: "/images/gallery/wilson-point-forest.jpg",
+    originalFileName: "willson point.jpeg"
+  },
+  {
+    id: "g-21",
+    title: "Venna Lake & Lakeside Boating",
+    spotName: "Venna Lake",
+    category: "Local Experiences",
+    caption: "The sparkling centerpiece of Mahabaleshwar, surrounded by tall pine trees, pedal boats, rowboats, and evening food stalls.",
+    highlightBadge: "Lakeside Boating",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "1 - 2 Hours",
+    distanceFromCenter: "2.5 km from market",
+    url: "/images/gallery/venna-lake.jpg"
+  },
+  {
+    id: "g-22",
+    title: "Winding Pasarni & Western Ghats Mountain Passes",
+    spotName: "Scenic Ghat Passes",
+    category: "Scenic Roads",
+    caption: "Smooth, scenic mountain drives through lush Sahyadri hills, mist-shrouded hairpins, and forest canopies.",
+    highlightBadge: "Scenic Mountain Drive",
+    tourCircuit: "All Tours & Transfers",
+    approxTime: "En-Route",
+    distanceFromCenter: "Connecting routes",
+    url: "/images/gallery/western-ghats-road.jpg"
+  },
+  {
+    id: "g-23",
+    title: "Panchganga Holy Temple - Confluence of Five Rivers",
+    spotName: "Panchganga Mandir",
+    category: "Heritage & Temples",
+    caption: "Sacred 13th-century stone temple constructed at the sacred confluence of five holy rivers: Krishna, Venna, Koyna, Savitri, and Gayatri.",
+    highlightBadge: "Sacred 5-River Confluence",
+    tourCircuit: "Old Mahabaleshwar Heritage Tour",
+    approxTime: "45 - 60 Mins",
+    distanceFromCenter: "6 km (Old Mahabaleshwar)",
+    url: "/images/gallery/panchganga-temple-ghats.jpg"
+  },
+  {
+    id: "g-24",
+    title: "Tapola - Shivsagar Lake Reservoir & Boating",
+    spotName: "Tapola Shivsagar Lake",
+    category: "Tapola",
+    caption: "Scenic reservoir formed at the meeting of Koyna and Solshi rivers, popular for speedboats, water scooters, and tranquil countryside.",
+    highlightBadge: "Mini Kashmir Waters",
+    tourCircuit: "Tapola Lakeside Tour",
+    approxTime: "Full Day Trip",
+    distanceFromCenter: "28 km from Mahabaleshwar",
+    url: "/images/gallery/shivasagar-tapola.jpg"
+  },
+  {
+    id: "g-25",
+    title: "Dhobi Waterfall - Forested Cascades",
+    spotName: "Dhobi Waterfall",
+    category: "Waterfalls",
+    caption: "Secluded mountain waterfall tumbling into the deep valley between Mahabaleshwar and Elphinstone point.",
+    highlightBadge: "Hidden Valley Waterfall",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "1 Hour",
+    distanceFromCenter: "3 km from market",
+    url: "/images/gallery/dhobi-waterfall.jpg"
+  },
+  {
+    id: "g-26",
+    title: "Arthur's Seat - Sunrise Over Savitri Valley & Canyon",
+    spotName: "Arthur's Seat Canyon Sunrise",
+    category: "Mahabaleshwar",
+    caption: "Spectacular morning sunrise illuminating the deep red stone ravines and sweeping canyon chasms of Savitri Valley from Arthur's Seat.",
+    highlightBadge: "Verified Sunrise Vista",
+    tourCircuit: "Arthur's Seat Circuit",
+    approxTime: "1 Hour",
+    distanceFromCenter: "13 km from market",
+    url: "/images/gallery/arthurs-seat-canyon-sunrise.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 8.20.35 PM.jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-27",
+    title: "Tapola & Dhom Lake - Aerial Valley Waters Panorama",
+    spotName: "Tapola / Dhom Lake Aerial",
+    category: "Tapola",
+    caption: "Expansive high-elevation outlook over the glistening sapphire waters of the reservoir twisting gently through the Sahyadri mountains.",
+    highlightBadge: "Aerial Lake Panorama",
+    tourCircuit: "Tapola Mini Kashmir Circuit",
+    approxTime: "Full Day Trip",
+    distanceFromCenter: "28 km from Mahabaleshwar",
+    url: "/images/gallery/tapola-dhom-reservoir-aerial.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 8.20.36 PM (1).jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-28",
+    title: "Lingmala Waterfall - Pristine Forest Plunge",
+    spotName: "Lingmala Forest Cascade",
+    category: "Waterfalls",
+    caption: "Sheer vertical cascade tumbling down rugged green moss-covered cliffs amidst dense misty monsoon forests.",
+    highlightBadge: "600-Foot Natural Cascade",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "1 - 1.5 Hours",
+    distanceFromCenter: "6 km on Pune Road",
+    url: "/images/gallery/lingmala-cascade-forest.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 8.20.36 PM.jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-29",
+    title: "Old Mahabaleshwar - Ancient Shri Mahabaleshwar Shiva Mandir",
+    spotName: "Mahabaleshwar Shiva Mandir",
+    category: "Heritage & Temples",
+    caption: "Historic 16th-century black basalt temple dedicated to Lord Shiva with ancient Hemadpanthi architecture, pyramidal spire, and sacred sanctum.",
+    highlightBadge: "16th-Century Sacred Mandir",
+    tourCircuit: "Old Mahabaleshwar Heritage Tour",
+    approxTime: "45 Mins",
+    distanceFromCenter: "6 km from market",
+    url: "/images/gallery/mahabaleshwar-ancient-shiva-temple.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 10.42.38 PM (1).jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-30",
+    title: "Lodwick & Elephant Head - Suspension Bridge Observation Deck",
+    spotName: "Lodwick Suspension Walkway",
+    category: "Mahabaleshwar",
+    caption: "Elevated wooden suspension bridge and observation deck clinging to high cliffs, offering boundless views of Pratapgad and deep valleys.",
+    highlightBadge: "Suspension View Deck",
+    tourCircuit: "Mahabaleshwar Local Sightseeing",
+    approxTime: "45 Mins",
+    distanceFromCenter: "5 km from market",
+    url: "/images/gallery/lodwick-viewpoint-bridge-deck.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 10.42.38 PM (2).jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-31",
+    title: "Tapola 'Mini Kashmir' - Speedboat Cruise on Shivsagar Lake",
+    spotName: "Tapola Watersport & Boating",
+    category: "Tapola",
+    caption: "Vibrant speedboats and cruise launches skimming across the vast Koyna backwaters of Tapola, known affectionately as Mini Kashmir.",
+    highlightBadge: "Mini Kashmir Water Cruise",
+    tourCircuit: "Tapola Lakeside Tour",
+    approxTime: "2 Hours Boating",
+    distanceFromCenter: "28 km from Mahabaleshwar",
+    url: "/images/gallery/tapola-mini-kashmir-boating.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 10.42.38 PM (3).jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-32",
+    title: "Old Mahabaleshwar - Historic Stone Gateway & Pilgrim Market",
+    spotName: "Kshetra Market Archway",
+    category: "Local Experiences",
+    caption: "Carved stone arch entrance opening into the vibrant traditional temple lane with artisan stalls, winter wear, authentic sweets, and prasad.",
+    highlightBadge: "Temple Bazaar Walk",
+    tourCircuit: "Old Mahabaleshwar Heritage Tour",
+    approxTime: "45 Mins",
+    distanceFromCenter: "6 km from market",
+    url: "/images/gallery/old-mahabaleshwar-market-arch.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 10.42.38 PM.jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-33",
+    title: "Tapola 'The Hidden Paradise' - Backwater Waterfalls & Boat Ride",
+    spotName: "Tapola Hidden Waterfalls",
+    category: "Tapola",
+    caption: "Secluded twin waterfalls tumbling into tranquil Koyna reservoir inlets, surrounded by emerald hills during scenic Tapola boat excursions.",
+    highlightBadge: "The Hidden Paradise",
+    tourCircuit: "Tapola Lakeside Tour",
+    approxTime: "Full Day Trip",
+    distanceFromCenter: "28 km from Mahabaleshwar",
+    url: "/images/gallery/tapola-hidden-paradise-waterfalls.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 10.42.39 PM (1).jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-34",
+    title: "Wai - Sacred Krishna River Ghats & Mandir Reflection",
+    spotName: "Wai Krishna Temple Ghats",
+    category: "Heritage & Temples",
+    caption: "Serene stone temple pavilions with iconic ochre shikhara towers reflected upon the calm holy waters of the sacred Krishna River at Wai.",
+    highlightBadge: "Dakshin Kashi Riverfront",
+    tourCircuit: "Wai Heritage Tour",
+    approxTime: "1 - 1.5 Hours",
+    distanceFromCenter: "32 km from Mahabaleshwar",
+    url: "/images/gallery/wai-krishna-river-mandir.jpg",
+    originalFileName: "WhatsApp Image 2026-09-09 at 10.42.39 PM.jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-35",
+    title: "Wilson Point - High Altitude Sunrise & Forest View",
+    spotName: "Wilson Sunrise Point",
+    category: "Mahabaleshwar",
+    caption: "Unobstructed panorama from Mahabaleshwar's highest plateau (1,439 m) overlooking the deep green canopy of Western Ghats tropical evergreen forests.",
+    highlightBadge: "Highest Point (1,439 m)",
+    tourCircuit: "Mahabaleshwar Sunrise Circuit",
+    approxTime: "1 Hour",
+    distanceFromCenter: "1.5 km from market",
+    url: "/images/gallery/wilson-point-sunrise-canopy.jpg",
+    originalFileName: "willson point.jpeg",
+    isUserPhoto: true
+  },
+  {
+    id: "g-36",
+    title: "Mahabaleshwar Wala Tours & Travels - Official Taxi Fleet & Service",
+    spotName: "Mahabaleshwar Wala Taxi",
+    category: "Scenic Roads",
+    caption: "Verified private taxi service by Mahabaleshwar Wala Tours & Travels. Clean AC sedans, Ertiga, and Innova Crysta cabs driven by polite, mountain-certified local drivers.",
+    highlightBadge: "Verified Official Fleet",
+    tourCircuit: "Custom Sightseeing & Outstation",
+    approxTime: "Full Day / Multi-Day",
+    distanceFromCenter: "Doorstep Pickup Across Mahabaleshwar",
+    url: "/images/gallery/mahabaleshwar-wala-taxi-fleet.jpg",
+    originalFileName: "mahabaleshwar wala taxi.jpeg",
+    isUserPhoto: true
+  }
+];

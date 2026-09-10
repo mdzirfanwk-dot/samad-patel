@@ -1,0 +1,6 @@
+{
+  "name": "Mahabaleshwar Wala Tours & Travel",
+  "description": "Official website of Mahabaleshwar wala Tours and Travel — local taxi, sightseeing tours, outstation cabs and travel enquiries in Mahabaleshwar, Maharashtra. Call or WhatsApp +91 89990 61316.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
